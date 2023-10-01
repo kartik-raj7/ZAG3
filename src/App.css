@@ -1,42 +1,77 @@
-#root {
-  max-width: 1280px;
-  margin: 0 auto;
-  padding: 2rem;
-  text-align: center;
+.sidenav{
+    height: 100vh;
+}
+.rightsideDiv{
+ display: flex;
+ background-color:#f8f8f9;
+ flex-direction: column;
+ align-items: center;
+}
+.topNav{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 10px;
+}
+.divider{
+    background-color: #0000001A;
+}
+.chartRow{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+.orderText{
+    margin: 0 !important;
+}
+.tableData{
+    width: 100vw;
+    background-color: #ffffff;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    border-radius:30px;
+    padding: 10px;
+}
+.colStyle{
+    background-color: #ffffff;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    padding: 20px;
+    margin: 20px 10px;
+    border-radius: 30px;
 }
 
-.logo {
-  height: 6em;
-  padding: 1.5em;
-  will-change: filter;
-  transition: filter 300ms;
+.chartRow{
+    display: flex;
+    justify-content: space-between;
 }
-.logo:hover {
-  filter: drop-shadow(0 0 2em #646cffaa);
+.customerText{
+    margin-top: 0 !important;
 }
-.logo.react:hover {
-  filter: drop-shadow(0 0 2em #61dafbaa);
+.progressBardiv{
+    padding: 20px 0;
 }
-
-@keyframes logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.progressbarStyle span{
+    display: none !important;
+    }
+    .progresscircleDiv{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+    .progresscircleHeadings{
+        padding: 5px 0;
+    }
+.progresshorizontalText{
+    margin: 0 !important;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  a:nth-of-type(2) .logo {
-    animation: logo-spin infinite 20s linear;
-  }
+.progresshorizontalTextsec{
+    margin: 0 !important;
+    text-align: end;
 }
-
-.card {
-  padding: 2em;
-}
-
-.read-the-docs {
-  color: #888;
+.logoDiv{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 0;
 }
